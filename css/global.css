@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  list-style: none;
+cursor: default;
+}
+body{
+  background-color: #A1AF87;
+}
+
+.container{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 6rem;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 700px){
+.subtitulo{
+  font-size: 3rem;
+  text-transform: capitalize;/*faz com que a primeira letra fique maior*/
+  max-width: initial !important;/*volta no valor inicial*/
+  text-align: center;
+  align-items: center;
+
+}
+
+.grid-experiencia{
+    grid-template-columns: 1fr;
+    gap: 40px;/*não utilizar valores em rem, quebra todo o layout*/
+  }
+
+  .grid-experiencia .titulo-experiencia{
+    color: #141414;
+  }
+  .descricao-experiencia{
+    font-size: 1.25rem;
+  }
+ .ano{
+  position: initial;
+  order: 1;
+  width: initial;
+  text-align: left;
+  font-size: 1rem;
+
+}
+}
