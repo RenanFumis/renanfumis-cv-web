@@ -1,0 +1,63 @@
+footer{
+  background: #000000;
+  color: #ffffff;
+  
+}
+
+.footer-container{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 100px;
+  padding: 120px 20px 20px 20px;
+  margin: 0 auto;
+}
+
+.footer-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+.footer-contato li{
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+
+.footer-contato a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 30px 0px;
+  cursor: pointer;
+}
+.logo-contato{
+  max-width: 25px;
+}
+
+.assinatura{
+ grid-column: 1 / -1;
+ padding-top: 30px;
+ text-align: center;
+ font-size: 1.4rem;
+ letter-spacing: 5px;
+}
+
+@media (max-width:700px){
+  .footer-container{
+    grid-template-columns: 1fr;
+  }
+  .footer-contato li{
+    font-size: 1.3rem;
+  }
+  .logo-contato{
+    max-width: 15px;
+  }
+
+  .assinatura{
+    letter-spacing: normal;
+    font-size: .9rem;
+  }
+}
