@@ -1,6 +1,0 @@
-{
-  "workbench.settings.useSplitJSON": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500,
-  "liveServer.settings.port": 5502
-}
