@@ -11,14 +11,19 @@
 .titulo-titulo{
   font-size: 5rem;
   line-height: 1.125;
+}
+.titulo-t2{
+  font-size: 3.5rem;
+  align-items: end;
+  line-height: 1.125;
   margin-bottom: 1.8rem;
- }
+}
 
- .titulo-paragrafo{
+.titulo-paragrafo{
   font-size: 1.3rem;
   text-align: center;
   color: #525252;
- }
+}
  .titulo-profissao-local{
   margin: 4rem;
  }
