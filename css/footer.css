@@ -9,18 +9,18 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 100px;
-  padding: 120px 20px 20px 20px;
+  gap: 60px;
+  padding: 80px 20px 20px 20px;
   margin: 0 auto;
 }
 
 .footer-texto{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.33;
 }
 
 .footer-contato li{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   display: block;
   margin-bottom: 20px;
@@ -38,11 +38,11 @@ footer{
 }
 
 .assinatura{
- grid-column: 1 / -1;
- padding-top: 30px;
- text-align: center;
- font-size: 1.4rem;
- letter-spacing: 5px;
+  grid-column: 1 / -1;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 5px;
 }
 
 @media (max-width:700px){
